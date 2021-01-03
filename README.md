@@ -15,6 +15,12 @@ second, clone this repo
 $git clone https://github.com/GyeongHoKim/.vim.git
 ```
 
+third, download Vundle for Plugin
+
+``` shell
+$git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
 third, move vimrc file & download vim plugins
 
 ``` shell
