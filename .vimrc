@@ -31,6 +31,8 @@ Plugin 'tpope/vim-fugitive' " vim with git command(e.g., Gdiff)
 Plugin 'vim-airline/vim-airline' " vim status bar
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'blueyed/vim-diminactive'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 
@@ -63,6 +65,9 @@ nnoremap <leader>w :bn<CR>
 
 " for blueyed/vim-diminactive
 let g:diminactive_enable_focus = 1
+
+" for *.jsx to *.js
+let g:jsx_ext_required = 0
 
 syntax enable
 filetype indent on
