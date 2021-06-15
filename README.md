@@ -28,6 +28,9 @@ third, move vimrc file & download vim plugins
 
 ``` shell
 mv ./.vim/.vimrc ./.vimrc
+```
+
+``` shell
 vim .vimrc
 ```
 
